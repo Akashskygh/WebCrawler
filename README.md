@@ -1,0 +1,1 @@
+This Python script scrapes the Open Canada website, identifying and notifying about newly uploaded documents. It performs tasks like tracking new links, sending email alerts with document URLs, and storing data in a MongoDB database. To use, install required Python libraries, set up a MongoDB instance, and customize email credentials and scraping parameters before execution.
