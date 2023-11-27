@@ -45,9 +45,9 @@ def write_new_links(file_path, new_links):
 
 # Sends an email with the provided list of new links
 def send_email(new_links):
-    email = "akashskygh1998@gmail.com"
-    password = "acuu fsdk gmla dtds"
-    recipient_email = "akashskygh@gmail.com"
+    email = "your@gmail.com"
+    password = "appPassword"
+    recipient_email = "receiver@gmail.com"
 
     # Add the prefix to each link
     full_links = [f"{link}\n" for link in new_links]
